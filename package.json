@@ -1,0 +1,18 @@
+{
+  "name": "aether-uix-project",
+  "version": "1.0.0",
+  "description": "frontend framework written from scratch",
+  "private":true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve:examples":"npx http-server -o . ./examples/"
+  },
+  "workspaces":[
+    "packages/runtime"
+  ],
+  "keywords": [],
+  "author": "sai prajoth mallyala",
+  "license": "ISC",
+  "type": "commonjs"
+}
