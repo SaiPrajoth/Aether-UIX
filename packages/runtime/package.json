@@ -11,7 +11,9 @@
     "prepack": "npm run build",
     "build": "rollup -c",
     "lint": "eslint src",
-    "lint:fix": "eslint src --fix"
+    "lint:fix": "eslint src --fix",
+    "test": "vitest",
+    "test:run": "vitest run"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +24,8 @@
     "rollup-plugin-filesize": "^10.0.0"
   },
   "devDependencies": {
-    "eslint": "^9.20.1"
+    "eslint": "^9.20.1",
+    "jsdom": "^26.0.0",
+    "vitest": "^3.0.6"
   }
 }
