@@ -2,13 +2,13 @@
   "name": "aether-uix-project",
   "version": "1.0.0",
   "description": "frontend framework written from scratch",
-  "private":true,
+  "private": true,
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve:examples":"npx http-server -o . ./examples/"
+    "serve:examples": "npx http-server -o . ./examples/"
   },
-  "workspaces":[
+  "workspaces": [
     "packages/runtime"
   ],
   "keywords": [],
